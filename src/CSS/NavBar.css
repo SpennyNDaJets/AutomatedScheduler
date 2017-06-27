@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+.ant-menu ant-menu-horizontal  ant-menu-dark ant-menu-root {
+  font-size: 50px;
+}
+
+.navBar {
+  font-size: 20px;
+  font-family: 'Titillium Web', sans-serif;
+}

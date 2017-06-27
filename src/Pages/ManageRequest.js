@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 //Components
 import NavBar from "../Dashboard/NavBar.js";
 
-class Dashboard extends Component {
+class ManageRequest extends Component {
   render () {
     const conditionalTabs = [
       { name: "Dashboard", url: "/dashboard" },
@@ -12,19 +12,19 @@ class Dashboard extends Component {
       { name: "Profile", url: "/dashboard/profile" },
       { name: "Manage Requests", url:"/dashboard/manage/request"},
       { name: "Manage Employee", url:"/dashboard/manage/employee"},
-      { name: "Create Schedule", url:"/dashboard/createschedule"},
+      { name: "Create Schedule", url:"/dashboard/createschedule"}
     ];
     return (
       <div>
         <NavBar
           tabs={conditionalTabs}
-          currentURL="/dashboard"/>
+          currentURL="/dashboard/manage/request"/>
         <h1>
-          Welcome to the Dashboard
+          Manage Requests Off
         </h1>
       </div>
     )
   }
 }
 
-export default Dashboard;
+export default ManageRequest;

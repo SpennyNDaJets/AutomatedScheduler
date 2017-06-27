@@ -7,7 +7,7 @@ import '../CSS/Header.css';
 class LoginButton extends Component {
   render() {
     return (
-      <Button key="submit" type="Default" size="large">
+      <Button key="submit" type="Primary" size="large">
         Log In
       </Button>
     )

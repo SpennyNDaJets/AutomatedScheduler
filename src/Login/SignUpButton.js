@@ -7,7 +7,7 @@ import '../CSS/Header.css';
 class SignUpButton extends Component {
   render() {
     return (
-      <Button key="submit" type="Default" size="large">
+      <Button key="submit" type="Primary" size="large">
         Sign Up 
       </Button>
     )
