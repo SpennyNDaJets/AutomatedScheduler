@@ -1,0 +1,8 @@
+.landingContainer {
+    display: flex;
+}
+
+.landingImage {
+    width: 100%;
+    height: 100%;
+}

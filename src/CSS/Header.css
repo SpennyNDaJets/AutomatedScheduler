@@ -1,0 +1,44 @@
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.boylanLogoContainer {
+    flex: 1
+}
+
+.boylanLogo {
+    width: 75px;
+}
+
+.titleContainer {
+    flex: 4;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Vollkorn', serif;
+}
+
+.buttonContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.signUpButton {
+    flex: 1;
+}
+
+.loginButton {
+    flex: 1;
+}
